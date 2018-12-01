@@ -1,0 +1,21 @@
+{
+  "name": "advent-of-code-2018",
+  "version": "0.1.0",
+  "description": "Advent of Code - 2018",
+  "main": "index.js",
+  "author": "Maya Vera <maya@mayavera.me> (https://mayavera.me/)",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mayavera/advent-of-code-2018.git"
+  },
+  "scripts": {
+    "start": "babel-node days/1/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6",
+    "standard": "^12.0.1"
+  }
+}
