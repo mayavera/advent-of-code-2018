@@ -10,8 +10,7 @@
     "url": "git@github.com:mayavera/advent-of-code-2018.git"
   },
   "scripts": {
-    "start:1": "babel-node days/1/index.js",
-    "start:2": "babel-node days/2/index.js"
+    "start": "babel-node days/$DAY"
   },
   "devDependencies": {
     "@babel/core": "^7.1.6",
