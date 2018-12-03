@@ -16,17 +16,7 @@ import path from 'path'
       readline.createInterface({
         input: fs.createReadStream(path.resolve(__dirname, 'input'))
       }).on('line', line => {
-        const direction = line.charAt(0)
-        const amount = parseInt(line.substr(1), 10)
-
-        switch (direction) {
-          case '+':
-            frequency += amount
-            break
-          case '-':
-            frequency -= amount
-            break
-        }
+        frequency += parseInt(line, 10)
 
         if (!firstRepeatedFrequencyFound) {
           if (foundFrequencies.has(frequency)) {
